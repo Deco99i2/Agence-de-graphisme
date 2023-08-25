@@ -1,0 +1,133 @@
+body header, main, footer {
+    width: 80%;
+    margin: auto;
+    font-size: 1.2em;
+}
+/* en-tete de la epage */
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-bottom: 0px; */
+    
+}
+header div {
+    display: flex;
+}
+nav  a {
+    /* justify-content: space-between; */
+    padding-left:15px ;
+    /* list-style-type: none; */
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}
+/* le pied de la page */
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #663399;
+    color: aliceblue;
+ }
+ footer .fs1,.fs2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: auto; */
+    padding: 15px 0px;
+ }
+ .fs1 {
+    text-align: center;
+    font-size: 1.1em;
+    margin: auto;
+ }
+ .fs2 {
+     display: flex;
+     justify-content: space-between;
+     padding: 0px 400px;
+     width: 30%;
+ }
+ .fs3 {
+     display: flex;
+     justify-content: space-between;
+     width: 80%;
+     margin: auto;
+ } 
+ .coo ul {
+    list-style-type: none;
+ }
+
+ /* le corps de la page  */
+  /* main */
+  main {
+    display: flex;
+    flex-direction: column;
+}
+.m1 {
+    background-image: url(Images/backgroung_image.jpg);
+    background-size: cover;
+    /* padding-bottom: 100px; */
+    /* padding-top: 0px; */
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   color: white;
+   background-position: center;
+   height: 450px;
+}
+.m1 h2 {
+    font-size: 2em;
+}
+/* section2 */
+.ms2-1 {
+    padding-top: 20px;
+    width: 70%;
+    margin: auto;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.ms2-2 {
+    width: 70%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    /* justify-content: space-between; */
+    padding-bottom: 100px;
+}
+.ms2-2a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.ms2-2a  p {
+    font-size: 0.765em;
+    text-align: center;
+}
+.illustrations {
+    vertical-align: center;
+    padding-top: 0;
+    margin-top: 10px;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    
+}
+.ms2-3 {
+    /* padding-top: 10px; */
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.ms2-3 p, .para {
+    font-size: 1.3em;
+    padding: 0px 40px;
+}
